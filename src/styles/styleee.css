@@ -1,0 +1,25 @@
+/* Ensures side-by-side layout */
+.page-container {
+    display: flex;
+    flex-direction: row; /* Ensure the layout is horizontal */
+    height: 100vh; /* Full height of the viewport */
+    width: 100vw; /* Full width of the viewport */
+  }
+  
+  /* Styling for the left side */
+  .home-container {
+    flex: 1; /* Takes up half of the container width */
+    background-color: #ffffff;
+    display: flex;
+    
+  }
+  
+  /* Styling for the right side */
+  .map-container {
+    flex: 1; 
+    background-color: #ffffff;
+    display: flex;
+
+   
+  }
+  
